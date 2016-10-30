@@ -7,11 +7,14 @@
     "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "tutorial-test": "yarn start"
-  },  
+  },
   "repository": {
     "url": "https://github.com/mehmettugrulsahin/js-stack-from-scratch.git",
     "type": "git"
   },
   "author": "Mehmet Tuğrul Şahin <mehmettugrulsahin@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "color": "^0.11.3"
+  }
 }
