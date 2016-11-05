@@ -1,8 +1,12 @@
+// @flow
+
+import 'babel-polyfill';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { createStore } from 'redux';
-import { combineReducers } from 'redux-immutable';
 import { Provider } from 'react-redux';
+import { combineReducers } from 'redux-immutable';
 import dogReducer from './reducers/dog-reducer';
 import BarkMessage from './containers/bark-message';
 import BarkButton from './containers/bark-button';
